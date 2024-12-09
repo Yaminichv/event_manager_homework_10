@@ -2,9 +2,13 @@ from builtins import bool, int, str
 from pathlib import Path
 from pydantic import  Field, AnyUrl, DirectoryPath
 from pydantic_settings import BaseSettings
+import os
+from dotenv import load_dotenv
 
-smtp_username = "740b4c8011aad4"
-smtp_password = "4b76c1f259e0f9"
+load_dotenv()
+
+smtp_username = os.getenv("SMTP_USERNAME")
+smtp_password = os.getenv("SMTP_PASSWORD")
 
 class Settings(BaseSettings):
     max_login_attempts: int = Field(default=3, description="Background color of QR codes")
