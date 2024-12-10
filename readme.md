@@ -2,6 +2,15 @@
 
 Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Developer and a student in software engineering, you are embarking on an exciting journey to contribute to our project aimed at developing a secure, robust REST API that supports JWT token-based OAuth2 authentication. This API serves as the backbone of our user management system and will eventually expand to include features for event management and registration.
 
+## My Submission
+
+In this assignment i learnt how to work as a QA analyst by finding out bugs. How does the enhancement and bugs report is done using git issues and how to write each issue in a official format. I learned the process of what QA analyst do and how testing is done on the application. I learned the process of debugging for checking the test cases which are failing and why they are failing. 
+
+I have worked on technical end to work on the issues raised and how they can be resolved and change the code according to the bug raised. While doing a commit then linking that commit to the issue that is worked on is an easier way to find what fix is given to which issue. This process will make developers find why they have given fix and what they have given fix.
+
+[Docker Hub Link](https://hub.docker.com/r/yaminichowdary996/event_manager)
+
+
 ## Assignment Objectives
 
 1. **Familiarize with REST API functionality and structure**: Gain hands-on experience working with a REST API, understanding its endpoints, request/response formats, and authentication mechanisms.
